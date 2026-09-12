@@ -1,0 +1,14 @@
+{
+  "name": "ESPressio-RTC",
+  "description": "Platform-independent real-time clock contracts and hardware RTC support primitives for ESPressio",
+  "keywords": "espressio,rtc,clock,calendar,embedded",
+  "authors": {"name": "Simon Stuart", "maintainer": true},
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {"flags": ["-std=gnu++17"], "unflags": ["-std=gnu++11"]},
+  "dependencies": [
+    {"name": "ESPressio-Platform", "version": "https://github.com/ESPressio-Development-Platform/ESPressio-Platform.git#platform_clock"}
+  ]
+}
